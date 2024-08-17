@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "secure_delivery",
+      "script": "npm run dev",
+      "instances": "max",
+      "exec_mode": "fork",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

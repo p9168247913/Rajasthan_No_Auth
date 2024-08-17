@@ -1,0 +1,7 @@
+module.exports.getAllData = require('./getAllData.controller.js')
+module.exports.downloadAllData = require('./downloadAllData.controller.js')
+module.exports.removeDuplicates = require('./deleteDuplicates.js')
+module.exports.getUniqueStationId = require('./getUniqueStationId.controller.js')
+module.exports.getLatestDataByStationId = require('./getLatestDataByStationId.controller.js')
+module.exports.addData = require('./addData.controller.js')
+module.exports.dummyData = require('./dummyData.controller.js')
